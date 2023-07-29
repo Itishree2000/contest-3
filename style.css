@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.card{
+  card-container;
+}
+
+
+.carousel-caption {
+ 
+  padding: 20px; 
+  position: absolute; 
+  top: 70%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 70%;
+  max-width: 400px; 
+  color: #fff; 
+  text-align: center;
+}
+
+/* Style for the caption title */
+.carousel-caption h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for the caption description */
+.carousel-caption p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style for the "Call to Action" button */
+.carousel-caption button {
+  background-color: #007bff;
+  color: #fff;
+  width: 120px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the card body */
+.card-body {
+  padding: 5px;
+}
+
+/* Style for the card text */
+.text {
+ align-items: center;
+ font-size: small;
+ font-weight: 300;
+}
+.card-img-top {
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  justify-content: space-between;
+}
+.carousel-caption1 {
+ 
+  padding: 20px; 
+  position: absolute; 
+  top: 30%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width : 70%;
+  max-width: 400px; 
+  color: #fff; 
+  text-align: center;
+}
+.carousel-caption1 h3 {
+
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for the caption description */
+.carousel-caption1 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style for the "Call to Action" button */
+.carousel-caption1 button {
+  background-color: #007bff;
+  color: #fff;
+  width: 120px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+/* CSS for the card container to display cards in a line */
+/* Assuming the class "abc" is wrapping the second set of cards */
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
